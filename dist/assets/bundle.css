@@ -1,0 +1,174 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.flex-container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: 'C64 Pro Mono Local';
+  src: url(/fonts/C64_Pro_Mono-STYLE.eot);
+  src: url(/fonts/C64_Pro_Mono-STYLE.eot) format("embedded-opentype"), url(/fonts/C64_Pro_Mono-STYLE.woff2) format("woff2"), url(/fonts/C64_Pro_Mono-STYLE.woff) format("woff"), url(/fonts/C64_Pro_Mono-STYLE.ttf) format("truetype"), url(/fonts/C64_Pro_Mono-STYLE.svg) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'C64 Pro Local';
+  src: url(/fonts/C64_Pro-STYLE.eot);
+  src: url(/fonts/C64_Pro-STYLE.eot) format("embedded-opentype"), url(/fonts/C64_Pro-STYLE.woff2) format("woff2"), url(/fonts/C64_Pro-STYLE.woff) format("woff"), url(/fonts/C64_Pro-STYLE.ttf) format("truetype"), url(/fonts/C64_Pro-STYLE.svg) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.c64pm {
+  font: normal 24pt/32px "C64 Pro Mono Local", "Monaco", Inconsolata, monospace;
+  letter-spacing: 0px;
+  padding: 0;
+  margin: 0;
+}
+
+.c64p {
+  font: normal 24pt/32px "C64 Pro Local", "Monaco", Inconsolata, monospace;
+  letter-spacing: 0px;
+  padding: 0;
+  margin: 0;
+}
+
+.px8 {
+  font-size: 6pt;
+  line-height: 8px;
+}
+
+.px16 {
+  font-size: 12pt;
+  line-height: 16px;
+}
+
+.px24 {
+  font-size: 18pt;
+  line-height: 24px;
+}
+
+.px32 {
+  font-size: 24pt;
+  line-height: 32px;
+}
+
+.px40 {
+  font-size: 30pt;
+  line-height: 40px;
+}
+
+table,
+tr,
+td {
+  padding: 0;
+  margin: 0;
+}
+
+thead,
+tbody,
+tr,
+td {
+  background-color: inherit;
+}
+
+td {
+  font: inherit;
+  border-right: 2px solid #888;
+  border-bottom: 2px solid #888;
+}
+
+td:first-child {
+  border-left: 2px solid #888;
+}
+
+tr:first-child td {
+  border-top: 2px solid #888;
+}
+
+td:hover {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+table {
+  border-top: 4px solid #000;
+  border-left: 4px solid #000;
+  border-right: 4px solid #000;
+  border-bottom: 4px solid #000;
+}
+
+.d020-00 {
+  background-color: #000000;
+}
+
+.d021-00 {
+  color: #000000;
+}
+
+.d020-06 {
+  background-color: #352879;
+}
+
+.d021-06 {
+  color: #352879;
+}
+
+.d020-0e {
+  background-color: #6C5EB5;
+}
+
+.d021-0e {
+  color: #6C5EB5;
+}
+
+.screen {
+  white-space: pre;
+  font: normal 24pt/32px "C64 Pro Mono Local", "Monaco", Inconsolata, monospace;
+  letter-spacing: 0px;
+  padding: 0;
+  margin: 0;
+  font-size: 12pt;
+  line-height: 16px;
+}
+
+.screen .row {
+  display: block;
+}
+
+.screen .row .section {
+  display: inline-block;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+
+/*# sourceMappingURL=bundle.css.map*/
